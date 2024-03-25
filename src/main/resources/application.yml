@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    password: 123
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/supportbot
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect=org:
+          hibernate:
+            dialect:
+              PostgreSQLDialect:
+
+telegram-bot:
+  token: "7007885797:AAHezkV3pznUOKx5Ro60bTAjPi_UtkL_3yE"
+  username: "fazoSupportBot"
+
